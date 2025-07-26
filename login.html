@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Property Connect</title>
+  <link rel="stylesheet" href="CSS/login.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Welcome Back!</h2>
+    
+    <!-- Login Form with JS validation -->
+    <form onsubmit="return validateLogin()">
+      <input type="text" id="loginInput" placeholder="Email or Phone Number" required><br>
+      <input type="password" id="loginPassword" placeholder="Password" required><br>
+
+      <!-- 🔗 Forgot Password Link -->
+      <div class="forgot-password">
+        <a href="reset-password.html">Forgot Password?</a>
+      </div>
+
+      <button type="submit">Done</button>
+    </form>
+
+    
+  </div>
+
+  <!-- JavaScript file -->
+  <script src="js/validation.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffc0cb; /* Baby pink */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 30px;
+    color: #d6336c;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #880e4f;
+    margin-bottom: 10px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 16px;
+    color: #5d1049;
+    margin-bottom: 20px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: #c2185b;
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #880e4f;
+}

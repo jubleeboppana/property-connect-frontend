@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reset Password - Property Connect</title>
+  <link rel="stylesheet" href="CSS/reset-password.css">
+</head>
+<body>
+  <div class="reset-container">
+    <h2>Reset Your Password</h2>
+    <form onsubmit="return validateResetPassword()">
+      <input type="text" id="resetEmail" placeholder="Email or Phone Number" required><br>
+      <input type="password" id="newPassword" placeholder="New Password" required><br>
+      <input type="password" id="confirmNewPassword" placeholder="Confirm New Password" required><br>
+      <button type="submit">Reset Password</button>
+    </form>
+    <a href="login.html" class="back-to-login">← Back to Login</a>
+  </div>
+
+  <script src="js/validation.js"></script>
+</body>
+</html>
